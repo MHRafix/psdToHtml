@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+     .header{
+         width: 100%;
+         height: auto;
+     }
+     
+     .headermenu{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 30px;
+        margin-bottom:30px;
+    }
+    .wrrappeer{
+        float: left;
+        margin-bottom: 50px;
+    }
+     .logo{
+         width: 80px;
+         height: auto;
+         float: left;
+         color: rgb(129, 129, 126);
+     }
+     .logo i{
+         padding: 7px;
+
+     }
+
+     .logotext{
+        margin-left: 10px;
+        width: 370px;
+
+     }
+     .logotext h2 {
+        font-family:none ;
+        margin-bottom: 0;
+        color: rgb(122, 122, 122);
+    }
+    .logotext small{
+        color: rgb(122, 122, 122);
+
+    }
+
+    .menus{
+        width: 580px;
+        float: right;
+        text-align: center;
+        margin-top: 20px;
+        display: block;
+    }
+
+    .menus ul{
+        list-style: none;
+        text-decoration: none;
+
+    }
+
+    .menus ul li{
+        display: inline;
+        padding: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        color: black;
+    }
+
+   
+ 
+     
+   .menus ul li a{
+       color: black;
+       text-decoration: none;
+       padding: 10px;
+       transition: .5s;
+   }
+
+   .menus ul li a:hover{
+       color: white;
+       background: black;
+       border-radius: 5px;
+       border: n one;
+   }
+
+   .headercontent{
+    background:linear-gradient(#000000cc,#333333),url(background.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 95%;
+       height: auto;
+       margin: auto;
+       overflow: hidden;
+   }
+
+   
+
+   .maincontent h2{
+    line-height: 20px;
+    margin-top:50px;
+    padding-left: 30px;
+    color: white;
+   }
+
+   .maincontent small{
+    margin-left: 142px;
+    font-size: 14px;
+    color: white;
+   }
+
+   
+.calculation{
+    background: rgb(54, 38, 14);
+    width: 400px;
+    height: auto;
+    float: right;
+    color: white;
+    margin: 20px;
+    margin-top:40px;
+    padding: 48px;
+}
+.calculationBox h3 {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #5d3535;
+    margin-bottom: 18px;
+}
+
+
+
+.calculationBox i.fas.fa-pound-sign {
+    margin-top: 30px;
+    padding: 8px;
+    font-size: 20px;
+    background: black;
+    margin-right: 13px;
+    border-radius: 20px;
+}
+.calculationBox i.fas.fa-user{
+    margin-top: 32px;
+    padding: 8px;
+    font-size: 20px;
+    background: black;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+.calculationBox input{
+    padding: 6px;
+    background: #f5f18a;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 37px;
+    
+}
+
+.calculationBox button{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(141, 109, 3);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    transition: .5s;
+}
+
+.calculationBox button:hover{
+    color: white;
+    background: black;
+}
+
+.icon1{
+    width: 80px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 25px;
+
+}
+
+.icon1 i{
+    color:rgb(31, 31, 221) ;
+}
+.icon2{
+    width: 80px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 25px;
+
+}
+
+.icon2 i{
+    color:rgb(38, 136, 54) ;
+}
+
+.icon3{
+    width: 80px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 25px;
+
+}
+
+.icon3 i{
+    color:orange ;
+}
+
+.icon4{
+    width: 80px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 25px;
+
+}
+
+.icon4 i{
+    color:rgb(4, 69, 122) ;
+}
+
+.systemBox h4{
+    color: rgb(87, 90, 50);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.systemBox p{
+    color: rgb(100, 98, 98);
+    text-align: center;
+} 
+
+.row{
+    padding-top: 100px;
+}
+
+.box img{
+    border: 4px solid #c2c1c1cc;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 170px;
+}
+
+.box h4{
+    color: #585757cc;
+
+}
+.box a{
+    text-decoration: none;
+}
+
+.box i{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-bottom: 35px;
+
+
+}
+
+.box small{
+    font-size: 12px;
+}
+.box p{
+    color: #5c5a5a;
+    font-size: 13px;
+}
+.box {   
+     margin-bottom: 15px;
+     width: 320px;
+}
+
+.box button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: rgb(141, 109, 3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: .5s;
+}
+
+.box button:hover{
+    background: black;
+}
+
+.firsttime{
+    float: left;
+}
+
+.firsttime i{
+    margin: 15px;
+}
+
+.mainbox{
+    background: rgb(48, 28, 2);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 360px;
+    transition: .5s;
+    margin-bottom: 25px;
+}
+
+.secondtime h5{
+    color: rgb(80, 64, 21);
+}
+
+.secondtime p{
+    color: rgb(255, 255, 255);
+}
+
+.mainbox:hover{
+    color: white;
+    background: black;
+}
+.image{
+    float: left;
+    margin-bottom: 50px;
+}
+
+.image img{
+    border: 3px solid rgb(163, 162, 162);
+    margin-right: 30px;
+
+}
+.text{
+    float: right;
+}
+
+.text p{
+    font-size: 13px;
+
+}
+.text a{
+    text-decoration: none;
+    color: #807f7fcc;
+}
+
+
+.details input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 35px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    margin-top: 20px;
+    
+}
+
+.details button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color:white;
+    background: rgb(80, 64, 21);
+    transition: .5s;
+    margin-top: 10px;
+}
+
+.details button:hover{
+    background: black;
+}
+
+.details p{
+    padding-top: 20px;
+}
+
+.details i{
+    margin-top: 5px;
+    background: rgba(68, 68, 68, 0.486);
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 3px;
+    transition: .5s;
+}
+
+.details i:hover{
+    color: white;
+    background: black;
+}.col-lg-3.col-md-3.col-sm-6 {
+    text-align: center;
+}

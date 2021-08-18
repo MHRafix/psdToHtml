@@ -1,0 +1,1415 @@
+*{margin: 0;
+    padding: 0;
+    }
+
+    .topcontent{
+        background: rgb(15 74 97 / 62%);
+        text-align: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .topcontent h5{
+        font-size: 14px;
+        color:  rgb(251 251 251);
+    }
+
+    .topcontent h5 a{
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+.bar button{
+    color: #4e4e4e;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    display: none;
+
+
+}
+
+    
+    
+    .nav-menu {
+        text-align: right;
+        margin-top: 40px;
+        margin-left: auto;
+    }
+    
+    .menus ul li{
+        display: inline;
+        list-style: none;
+        padding: 10px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .menus ul li a{
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        transition: .3s;
+        padding-bottom: 15px;
+    
+    }
+    .logo {
+        float: left;
+        margin-top: -10px;
+    }
+    .logo img{
+        width: 40px;
+    }
+    
+    .menus ul li a:hover{
+        color:rgba(108, 153, 236, 0.959) ;  
+         border-bottom: 2px solid rgb(90, 119, 247);
+    }
+    
+   
+    .allmenu{
+        width: 100%;
+        height: auto;
+    }
+    .second-section{
+        width: auto;
+        height: 800px;
+        background: rgb(243 227 227 / 22%);
+        margin-bottom: 150px;
+        margin-top: 50px;
+    }
+    .content {
+        float: left;
+        display: block;
+        position: relative;
+        margin-top: 150px;
+        width: 46%;
+    }
+    .content h1 {
+        line-height: 55px;
+        font-size: 54px;
+        font-weight: bolder;
+        font-family: system-ui;
+        margin-bottom: 20px;
+    }
+    
+    .content h1 b{
+        color: #21adff;
+    }
+    
+    .content p {
+        font-size: 17px;
+        color: #666363;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 25px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .content a button{
+        margin-bottom: 50px;
+        padding-top: 15px;
+        color: white;
+        background: #21adff;
+        border: none;
+        border-radius: 7px;
+        outline: none;
+        padding-bottom: 15px;
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: system-ui;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    .content a button:hover{
+        color: white;
+        background: black;
+    }
+
+    .image {
+        width: 50%;
+        float: right;
+        margin-left: 4%;
+        margin-top: 10%;
+    }
+     
+.image img {
+    float: right;
+    width: 100%;
+    height: 580px;
+}
+
+
+    .extension {
+        width: 380px;
+    }
+    .extension small{
+        font-size: 23px;
+        color: #21adff;
+        font-weight: 500;
+
+    }
+
+    .extension b{
+        font-size: 23px;
+        font-weight: 500;
+
+    }
+
+    
+    .third-section{ 
+        width: auto;
+        height: 640px;
+        margin-top: 100px;
+        background: rgb(237 248 251);
+        margin-bottom: 250px;
+    }
+.content2 h1{
+    color:#21adff ;
+    font-size: 54px;
+    font-weight: bolder;
+    font-family: system-ui;
+    margin-bottom: 20px;
+    line-height: 55px;}
+    
+    .content2 {
+        float: left;
+        display: block;
+        position: relative;
+        margin-top: 150px;
+        width: 46%;
+    }
+    
+    
+    
+    .content2 p {
+        font-size: 17px;
+        color: #666363;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 25px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .content2 a button{
+        margin-bottom: 50px;
+        padding-top: 15px;
+        color: white;
+        background: #21adff;
+        border: none;
+        border-radius: 7px;
+        outline: none;
+        padding-bottom: 15px;
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: system-ui;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    .content2 a button:hover{
+        color: white;
+        background: black;
+    }
+
+    .image2 {
+        width: 50%;
+        float: right;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+     
+.image2 img {
+    float: right;
+    width: 100%;
+    height: 580px;
+}
+
+    
+    .forth-section{ 
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .title h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: system-ui;
+    color: #21adff;
+    margin-bottom: 60px;
+}
+
+     .image1{
+
+        width: 33.3%;
+        float: left;
+        margin-bottom: 300px;
+    }
+    
+    
+
+     
+    .image1 img{
+        width: 320px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .image1 h4{
+        font-size: 20px;
+        font-family: system-ui;
+        margin-bottom: 15px;
+        text-align: center;
+        font-weight: bolder;
+    
+    }
+
+    .image1 p{
+        color: #827c7c;
+        font-size: 18px;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 27px;
+    
+    }
+
+    .fifth-section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+
+    .top-title{
+        width: 550px;
+        height: auto;
+        padding:20px ;
+        margin: auto;
+    }
+
+    .top-title h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: system-ui;
+    color: #21adff;
+    margin-bottom: 30px;
+    }
+
+    .top-title p{
+        color: #827c7c;
+        font-size: 18px;
+        text-align: center;
+        font-family: sans-serif;
+        line-height: 27px;
+    }
+    .top-title p a{
+        color: #21adff;
+    }
+
+    .top-title a button{
+            padding-top: 12px;
+            color: white;
+            background: #21adff;
+            border: none;
+            border-radius: 7px;
+            outline: none;
+            padding-bottom: 12px;
+            padding-left: 35px;
+            padding-right: 35px;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: system-ui;
+            transition: .5s;
+            margin-top: 50px;
+            cursor: pointer;
+        }
+    
+        .top-title a #button2{
+            padding-top: 12px;
+            color: black;
+            background: #f0f3f500;
+            border: 1px solid rgb(223, 221, 221);
+            border-radius: 7px;
+            outline: none;
+            padding-bottom: 12px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: system-ui;
+            transition: .5s;
+            margin-top: 50px;
+            margin-left: 40px;
+            cursor: pointer;
+            
+        }
+        
+        .top-title a #button2:hover{
+            color: white;
+            background: #21adff;
+        }
+
+        .top-title a button:hover{
+            color: white;
+            background: black;
+        }
+        
+        .food-menu{
+            background: rgb(237 248 251);
+           width: auto;
+           height: 500px;
+           padding: 43px;
+           margin-top: 30px;
+
+        }
+
+        .foodbox {
+            width: 49%;
+            height: auto;
+            border: 1px solid rgb(230, 228, 228);
+            overflow: hidden;
+            background: white;
+            border-radius: 7px;
+            float: left;
+            margin-right: 5px;
+            margin-bottom: 20px;
+            transition: .5s;
+        }
+
+        .foodbox img{
+            width: 120px;
+            border-radius: 10px;
+            margin: 35px;
+            float: left;
+
+        }
+
+        .foodbox h4{
+            padding-top: 30px;
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: system-ui;
+            margin-bottom: 15px;
+        }
+
+        .foodbox h4 a{
+            color: #37b1f8;
+            font-size: 15px;
+            padding-left: 105px;
+            text-decoration: none;
+        }
+
+        .foodbox p{
+            color: #827c7c;
+            font-size: 18px;
+            font-family: sans-serif;
+            line-height: 27px;
+            margin-bottom: 10px;
+        }
+
+        .foodbox input{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 45px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            margin-right: 15px;
+               }
+
+               .foodbox a button{
+                padding-top: 12px;
+                color: white;
+                background: #21adff;
+                border: none;
+                border-radius: 7px;
+                outline: none;
+                padding-bottom: 12px;
+                padding-left: 25px;
+                padding-right: 25px;
+                font-size: 15px;
+                font-weight: 600;
+                font-family: system-ui;
+                transition: .5s;
+                cursor: pointer;
+            }
+        
+            .foodbox a button:hover{
+                color: white;
+                background: black;
+            }
+
+            .foodbox:hover{
+                border: 1px solid #21adff;
+            }
+
+
+            .lastbutton{
+                width: 300px;
+                margin: auto;
+                
+            }
+
+            .lastbutton a button{
+                padding-top: 12px;
+                color: white;
+                background: #21adff;
+                border: none;
+                border-radius: 7px;
+                outline: none;
+                padding-bottom: 12px;
+                padding-left: 35px;
+                padding-right: 35px;
+                font-size: 18px;
+                font-weight: 600;
+                font-family: system-ui;
+                transition: .5s;
+                margin-top: 50px;
+                margin-left: 40px;
+                cursor: pointer;
+            }
+
+            .lastbutton a button:hover{
+                color: white;
+                background: black;
+            }
+
+            .sixth-section{ 
+                margin-bottom: 250px;
+                margin-top: 400px;
+                background: white;
+                overflow: hidden;
+            }
+            .title4 {
+                float: right;
+                width: 56%;
+                height: auto;
+                margin-top: 60px;
+                padding: 60px;
+            }
+            .title4 h1{
+            color:#21adff ;
+            font-size: 54px;
+            font-weight: bolder;
+            font-family: system-ui;
+            margin-bottom: 20px;
+            line-height: 55px;
+            }
+            
+            
+            
+            .title4 p{
+                font-size: 17px;
+                color: #666363;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                line-height: 25px;
+                margin-bottom: 50px;
+            }
+        
+            .title4 a button{
+                padding-top: 15px;
+                color: white;
+                background: #21adff;
+                border: none;
+                border-radius: 7px;
+                outline: none;
+                padding-bottom: 15px;
+                padding-left: 35px;
+                padding-right: 35px;
+                font-size: 18px;
+                font-weight: 600;
+                font-family: system-ui;
+                transition: .5s;
+                cursor: pointer;
+            }
+        
+        
+            
+            .title4 a button:hover{
+                color: white;
+                background: black;
+            }
+
+            .image6 {
+                width: 44%;
+                margin-left: 0px;
+                float: left;
+            }
+            .image6 img {
+        
+width: 100%;
+        
+height: 590px;
+        
+padding-top: 10px;
+            }
+
+            .seventh-section{ 
+                width: auto;
+                height: 640px;
+                margin-top: 100px;
+                background: rgb(237 248 251);
+                margin-bottom: 250px;
+                display: block;
+            }
+        
+            .title7 {
+                float: left;
+                width: 56%;
+                height: auto;
+                margin-top: 60px;
+                padding: 60px;
+            }
+            .title7 h1{
+            color:#21adff ;
+            font-size: 54px;
+            font-weight: bolder;
+            font-family: system-ui;
+            margin-bottom: 20px;
+            line-height: 55px;
+        
+            }
+            
+            
+            
+            .title7 p{
+                font-size: 17px;
+                color: #666363;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                line-height: 25px;
+                margin-bottom: 50px;
+            }
+        
+            .title7 a button{
+                padding-top: 15px;
+                color: white;
+                background: #21adff;
+                border: none;
+                border-radius: 7px;
+                outline: none;
+                padding-bottom: 15px;
+                padding-left: 35px;
+                padding-right: 35px;
+                font-size: 18px;
+                font-weight: 600;
+                font-family: system-ui;
+                transition: .5s;
+                cursor: pointer;
+            }
+        
+        
+            
+            .title7 a button:hover{
+                color: white;
+                background: black;
+            }
+        
+            .image7 {
+                width: 41%;
+                margin-left: 0px;
+                float: right;
+                margin: 15px 0px;
+                margin-right: 30px;
+            }
+            .image7 img {
+        
+width: 100%;
+        
+height: 590px;
+        
+padding-top: 10px;
+            }
+
+            .first-image{
+                width:47%;
+                height: 600px;
+                float: left;
+                overflow: hidden;
+                margin-bottom: 50px;
+            }
+        
+            .first-image img{
+              width: 100%;
+              height: 100%;
+              margin-left: 50px;
+              margin-right: 50px;
+            }
+
+            .image0{
+                width: 47%;
+                height: 600px;
+                float: right;
+                margin-right: 50px;
+                background: #37b1f8;
+                
+            }
+            
+
+            .image0 h1{
+                padding-left: 100px;
+                padding-top: 150px;
+                color: white;
+                font-family: system-ui;
+                font-size: 55px;
+                font-weight: bolder;
+                line-height: 65px;
+            }
+
+            .image0 h1 b{
+                color: rgba(44, 44, 44, 0.247);
+            }
+        
+            .image0 a button{
+                padding-top: 15px;
+                color:#21adff;
+                background: white;
+                border: none;
+                border-radius: 7px;
+                outline: none;
+                padding-bottom: 15px;
+                padding-left: 35px;
+                padding-right: 35px;
+                font-size: 18px;
+                font-weight: 600;
+                font-family: system-ui;
+                transition: .5s;
+                cursor: pointer;
+                margin-left: 100px;
+                margin-top: 60px;
+            }
+        
+        
+            
+            .image0 a button:hover{
+                color: white;
+                background: black;
+            }
+
+           .footer{
+               background:rgba(228, 241, 253, 0.651);
+               width: 100%;
+               height: auto;
+               overflow: hidden;
+           }
+
+
+
+            .footerbox{
+                width:400px;
+                float: left;
+                margin-top: 150px;
+                margin-left: 45px;
+                margin-right:100px;
+        
+            }
+            .footerbox img{
+                width: 40px;
+                margin-bottom: 20px;
+            }
+            
+            .footerbox p{
+
+                color: rgb(151, 150, 150);
+                font-size: 18px;
+                font-family: sans-serif;
+                line-height: 28px;
+            }
+        
+            .footerbox2 {
+                float: left;
+                width: 200px;
+                height: auto;
+                margin-top: 155px;
+                margin-left: 30px;
+                margin-bottom: 100px;
+            }
+            .footerbox2 h5{
+                color: black;
+                font-size: 22px;
+                font-family: system-ui;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+
+            .footerbox2 a{
+                color:rgb(117, 117, 117);
+                line-height: 50px;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 500;
+                padding-left: 5px;
+                font-family: sans-serif;
+                transition: .5s;
+            }
+
+            .footerbox2 a:hover{
+                color: black;
+            }
+           
+        /* responsive css strat from here */
+
+        @media screen and (min-width:1200px){
+        
+            .content2 p {
+                width: 100%;
+                font-size: 18px;
+            }
+            .content p {
+                width: 100%;
+                font-size: 18px;
+            }
+           
+.content2 {
+    float: left;
+    width: 57%;
+}
+
+.image2 {
+    width: 41%;
+    margin-left: 2%;
+}
+
+
+.footerbox2 {
+    width: 17%;
+}
+
+
+.footerbox{
+   width: 26%;
+   margin-right:5% ;
+   margin-left: 6%;
+   margin-top: 150px;
+
+}
+
+ 
+        }
+
+        @media screen and (max-width:1199px){
+        
+
+            .content {
+                width: 40%;
+            }
+
+            .image img {
+                height: 485px;
+            }
+
+            .image {
+                
+                margin-top: 25%;
+            }
+
+            .image2 {
+                width: 45%;
+                float: right;
+                margin-left: 0%;
+                margin-top: -5%;
+            
+            
+            } 
+              .image2 img {
+                float: right;
+                width: 100%;
+                height: 490px;
+            }
+            
+            .third-section {
+                height: 404px;
+            }
+          
+            .content2 {
+                margin-top: 30px;
+                width: 55%;
+            }
+            
+            
+            .content2 p {
+                width: 100%;
+            }
+            .foodbox h4 a {
+                padding-left: 17%;
+            }
+            
+            .foodbox img {
+                margin-left: 10px;
+                float: left;
+            }
+            
+            .foodbox p {
+                font-size: 15px;
+            }
+            
+            .foodbox input {
+                margin-left: 0%;
+            }
+                 .foodbox {
+                 display: inline-table;
+                       }
+
+                      .food-menu {
+               background: rgb(237 248 251);
+                width: auto;
+              height: 950px;
+               padding: 60px;
+               margin-top: 30px;
+                }
+
+                .foodbox h4 {
+                    padding-top: 30px;
+                    font-size: 19px;
+                }
+                    .title4 {
+                        width: 56%;
+                    }
+
+                   .title4 p {
+                    width: 100%;
+                }
+                   .image6 {
+                    width: 42%;
+                    margin-top: 100px;
+                }
+                .image6 img {
+                    height: 450px;
+                    
+                }
+
+                .title7 {
+                    width: 53%;
+                    padding: 40px;
+                    margin-top: 0px;
+                }
+                
+                   .image7 {
+                  width: 43%;
+                  margin-top: 50px;
+                       }
+                       
+                  .image7 img {
+                   width: 100%;
+                         height: 490px;
+                      }
+                                  
+                    .seventh-section {
+                      height: 590px;
+                    }
+                    
+                     .title7 p {
+                     width: 80%;
+                   }
+                   .image0 a button{
+                    margin-top: 25px;
+                    margin-left: 65px;
+
+                   }
+                   .seventh-section {
+                    margin-bottom: 170px;
+                }
+                    
+                .footerbox2 {
+                    width: 17%;
+                }
+                
+                
+               .footerbox{
+                   width: 26%;
+                   margin-right:5% ;
+                   margin-left: 6%;
+                   margin-top: 150px;
+
+               }
+                
+.image0 h1 {
+    padding-left: 60px;
+}
+                
+            
+        }
+
+        @media screen and (max-width:991px){
+    
+
+            .content {
+                width: 100%;
+                text-align: center;
+            }
+            .extension {
+                display: none;
+            }
+            
+            .second-section {
+                height: 1150px;
+            }
+            
+            .image {
+                margin-top: 6%;
+                width: 85%;
+            }
+            .content2 {
+                width: 100%;
+                text-align: center;
+                margin-top: 80px;
+            }
+            
+            .image2 {
+                width: 90%;
+                float: none;
+            }
+            
+            img {
+                width: 80%;
+            }
+            
+            .third-section {
+                height: 1000px;
+            }
+            .image1 {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            
+            .image1 img {
+                width: 350px;
+            }
+            .image1 h4 {
+                font-size: 33px;
+            }
+            
+            .image1 p {
+                font-size: 22px;
+            }
+            .image1:last-child {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 200px;
+            }
+            .foodbox {
+                width: 100%;
+            }
+            
+            .food-menu {
+                height: 1550px;
+            }
+            
+            .foodbox img {
+                margin-left: 5%;
+            }
+            
+            .foodbox h4 {
+                margin-left: 20%;
+            }
+            
+            .foodbox p {
+                margin-left: 20%;
+                font-size: 20px;
+            }
+            
+            input {
+                margin-left: 1%;
+            }
+            .image6 {
+                width: 100%;
+                text-align: center;
+                flex: none;
+            }
+            
+            .image6 img {
+                height: 640px;
+            }
+            .title4 {
+                width: 100%;
+                text-align: center;
+            }
+            .sixth-section {
+                margin-bottom: 0px;
+                margin-top: 50px;
+            }
+
+            .title7 {
+                width: 100%;
+                text-align: center;
+                margin-top: 50px;
+            }
+            
+            .title7 p {
+                width: 100%;
+            }
+            
+            .seventh-section {
+                height: 1200px;
+            }
+            
+            .image7 {
+                width: 95%;
+            }
+            
+            .image7 img {
+                height: 588px;
+            }
+            .first-image {
+                width: 97%;
+                height: 50%;
+            }
+            
+           .first-image img {
+                margin-left: 20px;
+            }
+            .image0 {
+                width: 95%;
+                margin-right: 27px;
+                height: 50%;
+            }
+            
+            .image0 h1 {
+                padding-top: 20px;
+            }
+            
+            .image0 a button {
+                margin-bottom: 25px;
+                margin-left: 65px;
+            }
+            
+
+        }
+
+
+
+        @media screen and (max-width:768px){
+
+
+
+            .foodbox img {
+                margin-left: 2%;
+            }
+            .foodbox h4 a {
+                padding-left: 10%;
+            }
+            .food-menu {
+                height: 1695px;
+            }
+            .first-image img {
+                margin: 0px;
+            }
+            .first-image {
+                width: 100%;
+                height: 50%;
+            
+        }
+
+        .top-title {
+            width: 100%;
+        }
+        .image0 {
+            width: 100%;
+            margin: 0px;
+        }
+        .footerbox {
+            width: 100%;
+        }
+        
+        .footerbox2 {
+            width: 27%;
+        }
+        
+    }
+
+
+    @media screen and (max-width:570px){
+
+        .topcontent h5 {
+            font-size: 15px;
+            color: rgb(251 251 251);
+     
+       }
+       button#heda {
+        display: block;
+        float: left;
+    }
+    
+    .menus {
+        display: none;
+        background: silver;
+        height: auto;
+        width: 655px;
+        margin-left: 0px;
+        }
+    .bar {
+        width: 200px;
+        margin-left: auto;
+    }
+    
+    button#heda {
+        margin-right: 40px;
+    }
+    .allmenu {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .bar {
+        width: 40px;
+        margin-left: auto;
+    }
+    button#heda {
+        margin-bottom: -28px;
+        margin-right: 40px;
+    }
+    .nav-menu {
+        margin-top: 5px;
+        overflow: hidden;
+        margin-right: auto;
+    }
+    .menus {
+        display: none;
+        background: silver;
+        height: auto;
+        margin-left: 0px;
+        float: left;
+    }
+    .menus {
+        width: 99%;
+        margin-top: 46px;
+    }.menus ul li {
+        list-style: none;
+        padding: 15px;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: left;
+        display: list-item;
+    }
+    .bar {
+        width: 30px;
+        margin-left: auto;
+        overflow: hidden;
+    }
+    button#heda {
+        margin-bottom: 3px;
+        margin-right: 40px;
+    }
+    
+.top-title a #button2 {
+    
+    margin-left: 99px;
+}
+.foodbox img {
+    margin-left: 30%;
+}
+.foodbox h4 {
+    margin-left: 11%;
+}
+
+.foodbox p {
+    margin-left: 11%;
+    font-size: 22px;
+}
+
+.foodbox input {
+    margin-left: 11%;
+}
+.food-menu {
+    height: 2560px;
+}
+.footerbox2 {
+    width: 23%;
+}
+
+    }
+
+    @media screen and (max-width:425px){
+        .image1 p {
+            font-size: 20px;
+        }
+        
+        .image1 h4 {
+            font-size: 25px;
+        }
+        .top-title p {
+            font-size: 20px;
+        }
+        .image2 img {
+            height: 345px;
+        }
+        .top-title a button {
+            width: 100%;
+        }
+        .top-title a #button2 {
+            margin-left: 0px;
+        }
+        .foodbox img {
+            margin-left: 5%;
+            width: 90%;
+        }
+        .foodbox h4 {
+            margin-left: 5%;
+            font-size: 19px;
+        }
+        .third-section {
+            height: 945px;
+            margin-bottom: 90px;
+
+        }
+        .image6 img {
+            height: 400px;
+        }        
+        
+.forth-section {
+    padding-top: 0px;}
+        .foodbox p {
+            margin-left: 5%;
+            font-size: 16px;
+        }   
+
+        .foodbox input {
+            margin-left: 5%;
+        }
+        .food-menu {
+            height: 3145px;
+        }
+        .title4 p {
+            font-size: 20px;
+        }
+
+        .title4 h1 {
+            font-size: 27px;
+            line-height: 34px;
+        }
+
+        .title7 h1 {
+            font-size: 34px;
+            line-height: 43px;
+        }
+        
+
+.title7 p {
+    font-size: 21px;
+}
+
+.image7 img {
+    height: 400px;
+}
+.seventh-section {
+    height: 1050px;
+}
+
+.first-image {
+    margin-bottom: 15px;
+}
+        
+.seventh-section {
+    margin-bottom: 70px;
+}
+
+
+.footerbox2 {
+    width: 100%;
+    margin-bottom: 0px;
+}
+        
+    }
+
+    @media screen and (max-width:375px){
+
+
+        .image img {
+            height: 330px;
+        }
+
+        .image2 img {
+            height: 300px;
+        }
+        
+.title h1 {
+    font-size: 47px;
+}
+.image1 img {
+    width: 300px;
+}
+.image1 p {
+    font-size: 17px;
+}
+
+.top-title h1 {
+    font-size: 32px;
+}
+
+.top-title p {
+    font-size: 18px;
+}
+
+.foodbox input {
+    margin-left: 3%;
+}
+.lastbutton {
+    width: 263px;
+    margin: auto;
+}
+
+
+.lastbutton a button {
+    
+    margin-left: 10px;
+}
+
+.food-menu {
+    height: 3050px;
+}
+        
+
+
+.sixth-section {
+    margin-top: 0px;
+}
+
+.fifth-section {
+    margin-bottom: 0px;
+}
+
+.seventh-section {
+    margin-top: 20px;
+}
+
+.seventh-section {
+    height: 1039px;
+}
+
+.sixth-section {
+    margin-top: 0px;
+}
+
+.fifth-section {
+    margin-bottom: 0px;
+}
+
+.seventh-section {
+    margin-top: 20px;
+}
+img {}
+
+.sixth-section {
+    margin-top: 0px;
+}
+
+.fifth-section {
+    margin-bottom: 0px;
+}
+
+.seventh-section {
+    margin-top: 20px;
+}
+.image7 img {
+    height: 310px;
+}
+.image6 img {
+    height: 330px;
+}
+
+
+    }

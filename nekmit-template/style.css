@@ -1,0 +1,909 @@
+*{margin: 0;padding: 0;}
+    
+    body{
+    font-family: 'Oswald', sans-serif;
+    }
+
+  
+section{
+    background:linear-gradient(#0e0e0e8c, #0000009d),url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+.bar{
+    background: rgb(2, 41, 77);
+    position: absolute;
+    top:30px;
+    margin: auto;
+    width: 100%;
+    border-radius: 3px;
+    display: none;
+
+
+}
+.content p {
+    margin-bottom: 45px;
+    width: 680px;
+}
+    .menu{
+        background: rgb(2, 41, 77);
+        position: absolute;
+        top:80px;
+        margin: auto;
+        width: 100%;
+        border-radius: 3px;
+        display: block;
+
+    }
+    
+    .menu ul{
+    margin-left: 97px;
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    
+    }
+    
+    .menu ul li{
+    text-align: center;
+    width: 90px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px;
+    
+    
+    }
+    .menu ul li a{
+    
+    text-decoration:none;
+    color:#fff;
+    }
+    .active, .menu ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+    
+    }
+    
+    .content{
+ 
+        color: white;
+        padding-top: 350px;
+        margin-left: 100px;
+    }
+
+    .content h1{
+         margin-bottom: 18px;
+        font-size: 70px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .content p{
+    margin-bottom: 45px;
+
+    }
+
+
+
+    #button1{
+        padding-left: 25px;
+        padding-right:25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: mediumspringgreen;
+        color: white;
+        border-radius: 15px;
+        transition: .5s;
+        border: none;
+        outline: none;
+        margin-right: 20px;
+        position: sticky;
+      }
+      #button2{
+        padding-left: 25px;
+        padding-right:25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: rgba(10, 10, 10, 0);
+        color: white;
+        border-radius: 15px;
+        border: 1px solid white;
+                transition: .5s;
+
+        outline: none;
+      }
+
+      #button1:hover{
+     background: #0e0e0e11;
+     border: 1px solid white;
+  
+      }
+    
+      #button2:hover{
+        background: mediumspringgreen;
+        border:none;  
+      }
+
+     
+      .contaiineer{
+          width: 1160px;
+          height: auto;
+          margin: auto;
+      }
+    
+    .datting{
+        background: #11698e;
+        width: 92%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 20px;
+        color: white;
+      }
+
+      .row{
+          width: 90%;
+          height: auto;
+          margin: auto;
+padding: 40px;   
+padding-left: 0;       
+      }
+          .icon{
+              float: left;
+              color: rgb(47, 219, 250);
+              margin-right: 25px;
+          }  
+          .icon i{
+              padding: 15px;
+              background: #fdfdfd47;
+              transition: .3s;
+          }
+                
+
+           .dattingbox{
+               width: 250px;
+               height: auto;
+
+
+          }
+
+          .col-lg-3:hover i{
+              color: white;
+              background:rgba(58, 221, 250, 0.795); 
+          }
+
+         .serviceBox{
+             width: 350px;
+          border: 1px solid  rgba(58, 221, 250, 0.795); 
+          padding-left: 20px;
+          margin-bottom: 50px;
+          margin-left: 20px;
+          transition: .5s;  
+          padding-bottom: 50px;
+        } 
+
+         .icon2{
+             background: #11698e;
+             width: 60px;
+             margin-left: auto;
+             position: absolute;
+             top: -25px;
+             right: 1px;
+             display: block;
+             transition: .5s;
+
+         }
+
+         .icon2 i{
+            padding: 10px;
+         }
+
+         .maincontents h2{
+             font-weight: 700;
+             margin-top: 40px;
+             margin-bottom: 20px;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         }
+
+         .maincontents p{
+             font-size: 17px;
+         }
+
+         .maincontents a{
+           color: #0000009d; 
+           transition: .5s; 
+         }
+        
+            .serviceBox:hover{
+                background: #11698e;
+                color: #fff;
+
+            }
+            .serviceBox i{
+                color:white ;
+            }
+
+            .serviceBox:hover .icon2{background: turquoise;}
+
+            .maincontents a:hover{
+                color: white;
+            }
+         .title{
+             width: 400px;
+            height: auto;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 30px;
+         }
+
+         .title small{
+             margin-left: 80px;
+}
+         .title h4{
+             text-align: center;
+         }
+
+
+
+
+         .featuresection{
+             background:linear-gradient(#000000a6,#0c0c0cc7),url(leafbg.jpg);
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             width: 100%;
+             height: 740px;
+
+         }
+
+         .title2{
+            width: 400px;
+           height: auto;
+           margin: auto;
+           margin-top: 50px;
+           margin-bottom: 30px;
+           padding: 30px;
+           color: white;
+           padding-top: 50px;
+        }
+
+        .title2 small{
+            margin-left: 80px;
+}
+        .title2 h4{
+            text-align: center;
+        }
+
+
+        .featurecontent{
+         width: 97%;
+         height: 500px;
+         background: white;
+         margin: auto;
+         padding: 35px;
+        }
+
+        .featurediv{
+            float: left;
+            width: 650px;
+            height: auto;
+            margin: 20px;
+
+        }
+          
+        .featurediv h3{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .images{
+            float: right;
+            margin-top: 50px;
+        }
+
+        .images img{
+            width: 355px;
+            height: 380px;
+            
+        }
+
+       .list{
+           float: left;
+           width: 400px;
+
+       }
+       .list b{
+        padding: 10px;
+        background: turquoise;
+        border-radius: 100%;
+        margin: 15px;
+            } 
+            .list2 b{
+                padding: 10px;
+                background: turquoise;
+                border-radius: 100%;
+                margin: 15px;
+                    }
+                    .worksection{
+                     width: 100%;
+                     height: auto;
+                     background: rgb(241, 240, 240);
+                     overflow: hidden;
+                    }
+
+                    .workbox{
+                        width: 350px;
+                        height: auto;
+                        float: left;
+                        margin: 17px;
+
+
+                    }
+                    .workbox img{
+
+                        width: 100%;
+                        height: 250px;
+                        margin-bottom: 10px;
+                    }
+
+                    .workbox small{
+                        width: 220px;
+                        height: auto;
+                        margin: 5px;
+                    }
+
+                    .workbox small i{
+                        margin-right: 5px;
+
+                    }
+                    .workbox small a{
+                        color: #11698e;
+                        padding-right: 10px;
+                        margin-right: 10px;
+                        border-right: 1px solid rgba(90, 90, 90, 0.514);
+                    }
+                    .workbox h4{
+                        color: #11698e;
+                        margin: 10px;
+                        margin-left: 0;
+
+                    }
+                    .workbox p{
+                        color: #626464;
+                    }
+
+                    
+         .title4{
+            width: 400px;
+           height: auto;
+           margin: auto;
+           margin-top: 40px;
+           margin-bottom: 20px;
+           padding: 30px;
+        }
+
+
+        
+        .title4 small{
+            margin-left: 70px;
+}
+        .title4 h4{
+            text-align: center;
+        }
+
+        .footer{
+            background: #00435f;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+
+        .workbox2{
+            width: 350px;
+            height: auto;
+            float: left;
+            margin: 17px;
+
+
+        }
+
+        
+        .workbox2 h4{
+            color: #e9eef0;
+            margin: 10px;
+            margin-left: 0;
+            margin-bottom: 50px;
+
+        }
+        .workbox2 p{
+            color: #d1d4d4;
+        }
+
+        .socialicon{
+            width: 300px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+
+        }
+
+        .socialicon i{
+            background: rgba(206, 205, 205, 0.425);
+            color: #fff;
+            padding: 5px;
+            font-size: 25px;
+            margin-right: 10px;
+            transition: .5s;
+        }
+          
+
+        .socialicon i:hover{
+            background: #000000; ;
+        }
+
+
+        #input1{
+            background: rgba(27, 27, 27, 0.26);
+            color: #fff;
+            padding: 7px;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+            transition: .5s;
+        }
+        #input2{
+            background: rgba(27, 27, 27, 0.26);
+            color: #fff;
+            padding: 7px;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+            transition: .5s;
+        }
+
+        #input1:hover{
+            background:turquoise ;
+            
+            } #input2:hover{
+                background:turquoise ;
+                
+                }
+
+       #button{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: none;
+            border-radius: 5px;
+            background:turquoise ;
+            transition: .5s;
+            outline: none;
+            color: white;
+            margin-bottom: 50px;
+
+        
+        }
+
+        .copy{
+            width: 100%;
+            overflow: hidden;
+            padding-top:30px;
+            padding-bottom:30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: #095a7c;
+            font-size: 18px;
+
+        }
+        .copy small:first-child{
+            width: 700px;
+            margin-left: 20px;
+            color: white;
+   
+   
+           }
+            .copy small:last-child{
+            margin-left: 450px;
+            color: white;
+   
+   
+           }
+
+        #button:hover{
+            background: #00000000;
+            border: 1px solid white;
+        }
+     
+
+        @media screen and (min-width:1200px){
+
+
+            .row {
+                width: 100%;
+            }
+
+        }
+
+
+        @media screen and (max-width:1199px){
+            .menu ul {
+                margin-left: 5%;
+                
+            }
+            .menu ul li {
+                width: 80px;
+                
+            }
+            .datting {
+                width: 95%;
+            }
+            
+            .row {
+                width: 100%;
+            }
+
+            .icon {
+                margin-right: 10px;
+            }
+
+            .serviceBox {
+                width: 100%;
+            }
+           .icon2{
+               position: absolute;
+               top: -25px;
+               left: 5px;
+           }
+
+            .contaiineer {
+                width: 100%;
+            }
+            
+            .featurecontent {
+                width: 98%;
+            }
+            
+            .featurediv {
+                width: 50%;
+                margin: 10px;
+            }
+            
+           
+            
+            .images {
+                margin-top: 10px;
+                margin-bottom: 27px;
+            }
+            
+            .images img {height: 230px;}
+            .workbox {
+                width: 31.3%;
+                margin: 1%;
+            }
+            
+            .list2 {width: 50%;float: right;}
+
+.featurecontent {
+    
+    height: 520px;
+}   
+
+.workbox2 {
+    width: 29.3%;
+    margin: 2%;
+}
+.copy small:last-child {
+display: none;}
+.copy small:first-child {
+    width: 100%;
+    margin-left: 27%;
+}
+
+.menu {
+    text-align: -webkit-center;
+    font-size: 20px;
+    display: none;
+}
+
+.menu ul {
+    margin-left: 5%;
+    display: list-item;
+}
+.menu ul li {
+text-align: left;
+width: 126px;
+}
+.bar{
+    display: block;
+}
+a#heda {
+    font-size: 40px;
+    margin-left: 95px;
+}
+        }
+
+
+        @media screen and ( max-width:991px){
+            a#heda {
+                margin-left: 70px;
+            }
+
+            .content {
+                margin-left: 10%;
+            }
+
+            .col-lg-3 {
+                width: 50%;
+                margin-bottom: 3%;
+            }
+            .icon {
+                margin-left: 7%;
+            }
+
+
+               .col-lg-4 {
+                width: 50%;
+            }
+
+            .featurediv {
+                width: 43%;
+            }
+            
+            .images img {
+                height: 290px;
+            }
+            
+            .list2 {
+                width: 45%;
+            }
+            .list {
+                float: left;
+                width: 55%;
+            }
+            
+            .featurecontent {
+                height: 600px;
+            }
+            
+            .featuresection {
+                height: 800px;
+            }
+            
+            .workbox h4 {
+                font-size: 19px;
+            }
+
+            .copy small:first-child {
+                margin-left: 19%;
+            }            
+
+        }
+
+
+        @media screen and (max-width:768px){
+            .images img {
+                width: 100%;
+            }
+            .content p {
+                width: 100%;
+            }
+            .featurediv {
+                width: 100%;
+                
+            }
+            
+            .images {
+                width: 100%;
+            }
+            
+            .featuresection {
+                height: 1335px;
+            }
+            
+            .featurecontent {
+                height: 1135px;
+            }
+            
+            .list {
+                line-height: 30px;
+                width: 100%;
+                font-size: 30px;
+            }
+            
+            .list b {
+                margin-left: 0px;
+            }
+            
+            .list2 {
+                width: 100%;
+                font-size: 30px;
+                margin-top: 50px;
+                line-height: 30px;
+            }
+            
+            .list2 b {
+                margin-left: 0px;
+            }
+
+            .workbox h4 {
+                font-size: 30px;
+            }
+            .workbox {
+                width: 100%;
+                padding: 10px;
+            }
+            .copy small:first-child {
+                margin-left: 8%;
+            }
+
+            
+            .workbox2 {
+                width: 100%;
+                margin-top: 50px;
+                padding: 20px;
+            }
+}
+
+        @media screen and (max-width:570px){
+
+
+            .col-lg-3{
+                font-size: 13px;
+            }
+            .col-lg-4 {
+                width: 100%;
+            }
+            .featuresection{
+                height:1370px ;
+            }
+            .featurecontent{
+                height: 1170px;
+            }
+        
+        .list{
+            font-size: 22px;
+        }
+        .list2{
+            font-size: 22px;
+        }
+
+        .copy small:first-child {
+            font-size: 11px;
+        }
+        
+        
+        }
+
+
+        @media screen and (max-width:425px){
+           
+            a#heda {
+                margin-left: 20px;
+            }
+            .content h1 {
+                font-size: 60px;
+            }
+            
+            .col-lg-3 {
+                width: 100%;
+                margin-bottom: 10%;
+                font-size: 16px;
+            }
+            
+            .title {
+                width: 100%;
+            }
+            
+            .title2 {
+                width: 100%;
+            }
+            
+            .list {
+                font-size: 18px;
+            }
+            
+            .list2 {
+                font-size: 18px;
+            }
+            
+            .featuresection {
+                height: 1380px;
+            }
+            
+            .featurecontent {
+                height: 1180px;
+            }
+            
+            .title4 {
+                width: 100%;
+            }
+            
+           .copy small:first-child{
+                margin-left: 3%;
+            }
+
+        }
+
+
+        @media screen and (max-width:375px){
+
+            .content h1 {
+                font-size: 45px;
+            }
+            
+            .content {
+                margin-left: 5%;
+            }
+            
+            .datting {
+                width: 100%;
+            }
+            
+            .title small {
+                margin-left: 16%;
+            }
+            .col-lg-3 {
+                width: 100%;
+                margin-bottom: 10%;
+                font-size: 15px;
+            }
+            .title {
+                width: 100%;
+                margin-bottom: 0px;
+            }            .title h4 {
+                font-size: 21px;
+            }
+            
+            .title2 small {
+                margin-left: 16%;
+            }
+            
+            .title2 h4 {
+                font-size: 21px;
+            }
+            
+            .featurediv h3 {
+                font-size: 23px;
+            }
+            
+            .list {
+                font-size: 14px;
+                line-height: 24px;
+            }
+            
+            .list2 {
+                font-size: 14px;
+                line-height: 24px;
+            }
+            
+            .title4 small {
+                margin-left: 14%;
+            }
+            
+            .title4 h4 {
+                font-size: 19px;
+            }
+            
+            .title4 {
+                margin-bottom: 0px;
+            }
+            
+            .workbox h4 {
+                font-size: 25px;
+            }
+
+            .copy {
+                text-align: center;
+            }
+
+            .copy small:first-child {
+                font-size: 9px;
+            }
+
+        }
+
+
